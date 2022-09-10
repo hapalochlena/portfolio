@@ -1,0 +1,105 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Varela Round', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  color: #6B72E1;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(136, 136, 150);
+}
+
+a:hover {
+  color: green;
+  box-shadow: 2px 2px 1px pink;
+}
+
+#header {
+  margin: 5%;
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  margin: 10px auto;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  line-height: 60px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-profile {
+  height: 200px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#icon-social {
+  font-size: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: 10% auto;
+  margin-top: 5%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 50%;
+    margin: 10% auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 10% auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 10% auto;
+    margin-top: 5%;
+  }
+}
